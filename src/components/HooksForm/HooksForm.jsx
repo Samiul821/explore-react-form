@@ -8,7 +8,7 @@ const HooksForm = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log('sumbit:',name, email, password);
+        console.log('submit:',name, email, password);
     }
 
     return (
